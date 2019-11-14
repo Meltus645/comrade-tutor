@@ -104,14 +104,14 @@ body{
 }
 
 
-.text,.rwd img,.prj img{
+.bio .text,.rwd img,.prj img{
     height: 200px;
     display:block;
     margin:16px 0;
     cursor: pointer;
     width:300px;
 }
-.text{
+.bio .text{
   background:DodgerBlue;
   color:white;
   font:20px serif bold;
@@ -201,6 +201,7 @@ top:-10px;
 	padding:16px;
 	font-size:18px;
 	font-weight:bold;
+	display:block;
 }
 
 
