@@ -104,14 +104,14 @@ body{
 }
 
 
-.bio .text,.rwd img,.prj img{
+.bringIdea .text,.rwd img,.prj img{
     height: 200px;
     display:inline-block;
     margin:16px 8px;
     cursor: pointer;
     width:90%;
 }
-.bio .text{
+.bringIdea .text{
   background:DodgerBlue;
   color:white;
   font:20px serif bold;
