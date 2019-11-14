@@ -107,7 +107,7 @@ body{
 .bio .text,.rwd img,.prj img{
     height: 200px;
     display:block;
-    margin:16px 0;
+    margin:16px 8px;
     cursor: pointer;
     width:300px;
 }
