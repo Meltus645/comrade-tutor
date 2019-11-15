@@ -251,8 +251,8 @@ top:-10px;
 	cursor:pointer;
 	transition:background-color .4s linear;
 }
+/*contact footer*/
 .contact-footer{
-	background:purple;
 	width:100%;
 	background:purple;
 	color:white;
@@ -260,10 +260,11 @@ top:-10px;
 	padding-bottom:16px;
 	font-size:17px;
 }
-.lets, .fa{
+.contact-footer .lets ,.contact-footer .fa{
 	font-size:24px;
 	font-weight:bold;
 }
+
 .inner .nm:focus, .inner .msg:focus, .inner .myl:focus{
 	border:1px solid dodgerblue;
 	}
