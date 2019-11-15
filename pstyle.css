@@ -62,3 +62,6 @@
 	.inner button:hover,.inner button:focus{
 		background:red;
 	}
+iframe{ 
+	width:100%;
+}
