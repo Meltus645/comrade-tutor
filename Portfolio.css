@@ -119,14 +119,14 @@ body{
   text-align: center;
   
 }
-.footer{
+.main-footer{
     background:#f1f1f1;
     color:whitesmoke;
     width:100%;
     font-family:"open sans";
 }
 
-.footer #contact a{
+.main-footer #contact a{
     text-decoration: none;
     color:white;
     display: inline-block;
@@ -250,7 +250,7 @@ top:-10px;
 	cursor:pointer;
 	transition:background-color .4s linear;
 }
-.footer{
+.contact-footer{
 	background:purple;
 	width:100%;
 	background:purple;
