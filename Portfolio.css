@@ -308,7 +308,7 @@ iframe{
 }
 .header .lnks{
     position:relative;
-    left:0;
+    left:50%;
     top:10px;
     width:100%;
     z-index:1;
@@ -316,7 +316,7 @@ iframe{
 }
 .header .lnks a{
     padding:16px 4px;
-    font-size:16px;
+    font-size:16px;	
 }
 .instore #projects{
 	flex-direction:column;
