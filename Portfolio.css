@@ -92,15 +92,31 @@ body{
 
 .instore{
     padding:16px;
-    text-align:center;
-    
+    text-align:center; 
 }
 .instore #projects{
      padding:16px;
      font:24px times bold;
-     display:block;    
+     display:block;
+     width:100%;
 }
 
+
+.bringIdea .text,.rwd img,.prj img{
+    height: 200px;
+    display:inline-block;
+    margin:16px 8px;
+    cursor: pointer;
+    width:90%;
+}
+.bringIdea .text{
+  background:DodgerBlue;
+  color:white;
+  font:20px serif bold;
+  padding:16px 4px;
+  text-align: center;
+  width:"";
+}
 .projectsIcon{
 	width:100%;
 	height:100%;
@@ -134,22 +150,6 @@ body{
 	background:#333;
 	color:black;
 }
-.bringIdea .text,.rwd img,.prj img{
-    height: 200px;
-    display:inline-block;
-    margin:16px 8px;
-    cursor: pointer;
-    width:90%;
-}
-.bringIdea .text{
-  background:DodgerBlue;
-  color:white;
-  font:20px serif bold;
-  padding:16px 4px;
-  text-align: center;
-  
-}
-
 /*main footer */
 .main-footer{
     background:#f1f1f1;
