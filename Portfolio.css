@@ -97,7 +97,7 @@ body{
 .instore #projects{
      padding:16px;
      font:24px times bold;
-     display:block;
+     display:inline-block;
      width:100%;
 }
 
