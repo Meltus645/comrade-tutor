@@ -98,7 +98,8 @@ body{
      padding:16px;
      font:24px times bold;
      display:inline-block;
-     width:100%;
+    display:flex;
+	
 }
 
 
@@ -115,7 +116,6 @@ body{
   font:20px serif bold;
   padding:16px 4px;
   text-align: center;
-  width:"";
 }
 /*.projectsIcon{
 	width:100%;
