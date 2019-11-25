@@ -100,7 +100,7 @@ body{
      font:24px times bold;
      display:flex;
      flex-direction: row;
-    align-items:stretch;
+    /*align-items:stretch;*/
 }
 
 
