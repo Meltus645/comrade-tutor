@@ -98,9 +98,7 @@ body{
 .instore #projects{
      padding:16px;
      font:24px times bold;
-     display:flex;
-     flex-direction: row;
-    
+     display:block;    
 }
 
 .projectsIcon{
