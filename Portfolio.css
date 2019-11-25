@@ -100,10 +100,42 @@ body{
      font:24px times bold;
      display:flex;
      flex-direction: row;
-    /*align-items:stretch;*/
+    
 }
 
+.projectsIcon{
+	width:100%;
+	height:100%;
+	border:1px solid rgba(0,0,0,.2);
+	perspective:1000px;
+}
+.iconCover{
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;
+	transition:transform 0.8s;
+	transform-style:preserve-3d;
+}
+.projectIcon:hover .inner{
+	transform:rotateY(180deg);
+}
+.front,.back{
+	height: 100%;
+	width:100%;
+	backface-visibility:hidden;
+	position:absolute;
+}
+.back{
+	background:dodgerblue;
+	color:white;
+	transform:rotateY(180deg);
+}
 
+.front{
+	background:#333;
+	color:black;
+}
 .bringIdea .text,.rwd img,.prj img{
     height: 200px;
     display:inline-block;
@@ -119,6 +151,7 @@ body{
   text-align: center;
   
 }
+
 /*main footer */
 .main-footer{
     background:#f1f1f1;
