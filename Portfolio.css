@@ -205,6 +205,9 @@ sup{
     top:15px;
     right:15px;
 }
+.close:hover{
+	color:red;
+}
 .contactmodal h2{
     position: absolute;
     left:50%;
