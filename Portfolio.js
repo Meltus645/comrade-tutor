@@ -16,7 +16,7 @@ contact.onclick=function(){
 
 open.onclick=function(){
 	modal.style.display="block";
-	wedoit.style.display="inline";
+	wedoit.style.display="inline-block";
 }
 
 close.onclick=function(){
