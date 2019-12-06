@@ -211,7 +211,9 @@ sup{
     transform: translateX(-50%);
     top:15px;
 }
-
+.contactmodal h2 span{
+	display:none;
+}
 
 .instore h2{
     width:100%;
